@@ -62,39 +62,39 @@ function anteprima(contatore) {
 
     if (contatore == 1) {
         imgAnteprima1.style.cssText = 'border: 5px solid red;';
-        imgAnteprima2.style.cssText = 'border: trasparent';
-        imgAnteprima3.style.cssText = 'border: trasparent';
-        imgAnteprima4.style.cssText = 'border: trasparent';
-        imgAnteprima5.style.cssText = 'border: trasparent';
+        imgAnteprima2.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima3.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima4.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima5.style.cssText = 'border: trasparent; opacity: 0.3;';
         console.log("ciao" + contatore);
     }
     if (contatore == 2) {
         imgAnteprima2.style.cssText = 'border: 5px solid red;';
-        imgAnteprima1.style.cssText = 'border: trasparent';
-        imgAnteprima3.style.cssText = 'border: trasparent';
-        imgAnteprima4.style.cssText = 'border: trasparent';
-        imgAnteprima5.style.cssText = 'border: trasparent';
+        imgAnteprima1.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima3.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima4.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima5.style.cssText = 'border: trasparent; opacity: 0.3;';
         console.log("ciao" + contatore);
     } else if (contatore == 3) {
         imgAnteprima3.style.cssText = 'border: 5px solid red;';
-        imgAnteprima1.style.cssText = 'border: trasparent';
-        imgAnteprima2.style.cssText = 'border: trasparent';
-        imgAnteprima4.style.cssText = 'border: trasparent';
-        imgAnteprima5.style.cssText = 'border: trasparent';
+        imgAnteprima1.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima2.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima4.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima5.style.cssText = 'border: trasparent; opacity: 0.3;';
         console.log("ciao" + contatore);
     } else if (contatore == 4) {
         imgAnteprima4.style.cssText = 'border: 5px solid red;';
-        imgAnteprima1.style.cssText = 'border: trasparent';
-        imgAnteprima2.style.cssText = 'border: trasparent';
-        imgAnteprima3.style.cssText = 'border: trasparent';
-        imgAnteprima5.style.cssText = 'border: trasparent';
+        imgAnteprima1.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima2.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima3.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima5.style.cssText = 'border: trasparent; opacity: 0.3;';
         console.log("ciao" + contatore);
     } else if (contatore == 5) {
         imgAnteprima5.style.cssText = 'border: 5px solid red;';
-        imgAnteprima1.style.cssText = 'border: trasparent';
-        imgAnteprima2.style.cssText = 'border: trasparent';
-        imgAnteprima4.style.cssText = 'border: trasparent';
-        imgAnteprima3.style.cssText = 'border: trasparent';
+        imgAnteprima1.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima2.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima4.style.cssText = 'border: trasparent; opacity: 0.3;';
+        imgAnteprima3.style.cssText = 'border: trasparent; opacity: 0.3;';
         console.log("ciao" + contatore);
     }
 }
