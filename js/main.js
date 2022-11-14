@@ -11,22 +11,29 @@ let prev = document.getElementById("prev");
 
 let contatore = 1;
 
-// img exaple
+//reset dell'immagine di default quando si fa il refresh della pagina
 img = `<img src="img/0${contatore}.webp" alt="prova">`;
 div.innerHTML = img;
 
+// funzione next
+
 next.addEventListener("click", function () {
+    // controllo con if se il contatore è arrivato all'ultima immagine cosi da poter ricomnciare con il "ciclo"
     if (contatore == 5) {
         contatore = 0;
     }
     contatore++;
     console.log(contatore);
+    // stampo le immagine sull'html secondo il nome che hanno 
+    // tramite la variabile contatore do il numero dell'immagine
     img = `<img src="img/0${contatore}.webp" alt="prova">`;
+    // aggiungo l'immagine all'html
     div.innerHTML = img;
 });
 
-
+// funzione prev per tornare indietro con le immagini
 prev.addEventListener("click", function () {
+    // se il contatore è arrivato ad uno riparto con l'ultima immagine
     if (contatore == 1) {
         contatore = 6;
     }
