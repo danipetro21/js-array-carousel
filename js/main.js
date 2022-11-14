@@ -15,6 +15,8 @@ let imgAnteprima4 = document.getElementById('img4');
 let imgAnteprima5 = document.getElementById('img5');
 
 let contatore = 1;
+let maxLimit = 5;
+let minLimit = 0;
 
 //reset dell'immagine di default quando si fa il refresh della pagina
 img = `<img src="img/0${contatore}.webp" alt="img${contatore}">`;
@@ -26,8 +28,8 @@ imgAnteprima1.style.cssText = 'border: 5px solid red;';
 next.addEventListener("click", function () {
 
     // controllo con if se il contatore è arrivato all'ultima immagine cosi da poter ricomnciare con il "ciclo"
-    if (contatore == 5) {
-        contatore = 0;
+    if (contatore == maxLimit) {
+        contatore = minLimit;
     }
     contatore++;
     anteprima(contatore);
@@ -42,8 +44,8 @@ next.addEventListener("click", function () {
 // funzione prev per tornare indietro con le immagini
 prev.addEventListener("click", function () {
     // se il contatore è arrivato ad uno riparto con l'ultima immagine
-    if (contatore == 1) {
-        contatore = 6;
+    if (contatore == (minLimit + 1)) {
+        contatore = (maxLimit + 1);
     }
     contatore--;
     anteprima(contatore);
